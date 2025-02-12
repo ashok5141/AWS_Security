@@ -39,3 +39,23 @@
     - Implement a secure and consistent deployment strategy for cloud resources.
     - Evaluate the compliance of AWS resources.
     - Identity security gaps through architectural reviews and cost.
+    
+
+## Thread Detection and Incident Response
+
+#### AWS Config
+- AWS Config provides a detailed view of the configuration of AWS resources in your AWS account. This includes how the resources are related to one another and how they were configured in the past so that you can see how the configurations and relationships change over time.
+- An AWS resource is an entity you can work with in AWS, such as an Amazon Elastic Compute Cloud (EC2) instance, an Amazon Elastic Block Store (EBS) volume, a security group, or an Amazon Virtual Private Cloud (VPC). For a complete list of AWS resources supported by AWS Config, see Supported Resource Types for AWS Config.
+
+- Detailed Views
+    - Detailed views of the configuration of your **AWS resources within AWS accounts**. Normalized data is delivered to S3 buckets.
+- Historical Tracking
+    - This including relation of resources as well as the configuration history from past periods of time. Essentially, it's a **Configuration recording timeline**.
+- Not Prevention
+    - The service is **not** meant to provide prevention of changes to resources, It's only for notifications of recorded changes.
+
+> Ways to use AWS Config
+- Resource Administration:- better governance of your AWS resources. Easily detect and notify of misconfigurations via fine-graned visibility into resources.
+- Audit and Compliance:- Allows you to gain relevent audit data via the recorded historical configurations for all selected resources.
+- Troubleshooting:- Cross-dependencies of AWS resources can be troublesome. Using Config allow us to view dependent resources affected by other potential resource changes.
+- Security Analysis:- Better view into potential security weaknesses. View low-level changes to resources like AWS EC2 security groups(open ports) and IAM roles(Over-provisioned permissions)
