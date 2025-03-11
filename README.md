@@ -4,6 +4,13 @@
 
 ![AWS Security](https://raw.githubusercontent.com/ashok5141/AWS_Security/refs/heads/main/Docs/AWS%20Service.png)
 
+### How These AWS Security Services Work Together
+- **IAM & Cognito** authenticate users before they access AWS resources.
+- **GuardDuty, Inspector, and CloudTrail** monitor security events.
+- **WAF, Shield, and Firewall Manager** provide real-time attack mitigation.
+- **KMS and Macie** protect sensitive data from unauthorized access.
+- **Security Hub & Detective** aggregate security insights for better response.
+
 | Domain | Topics | Weightings |
 | :- | :- | :- |
 | 1 | Threat Detection and Incident Response | 14 |
