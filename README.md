@@ -2,6 +2,8 @@
 - Course Material [Link](https://acloudguru-content-attachment-production.s3-accelerate.amazonaws.com/1681319452000-AWS_SECURITY_SPECIALTY_EXAM_STUDY_GUIDE.pdf)
 - Notes for Security certification and understanding Document attacked in the Docs section [Online](https://d1.awsstatic.com/training-and-certification/docs-security-spec/AWS-Certified-Security-Specialty_Exam-Guide.pdf)
 
+![AWS Security](https://raw.githubusercontent.com/ashok5141/AWS_Security/refs/heads/main/Docs/AWS%20Service.png)
+
 | Domain | Topics | Weightings |
 | :- | :- | :- |
 | 1 | Threat Detection and Incident Response | 14 |
