@@ -41,7 +41,7 @@
     - Identity security gaps through architectural reviews and cost.
     
 
-## Thread Detection and Incident Response
+## Thread Detection and Incident Response 14
 
 #### AWS Config
 - AWS Config provides a detailed view of the configuration of AWS resources in your AWS account. This includes how the resources are related to one another and how they were configured in the past so that you can see how the configurations and relationships change over time.
@@ -59,3 +59,25 @@
 - Audit and Compliance:- Allows you to gain relevent audit data via the recorded historical configurations for all selected resources.
 - Troubleshooting:- Cross-dependencies of AWS resources can be troublesome. Using Config allow us to view dependent resources affected by other potential resource changes.
 - Security Analysis:- Better view into potential security weaknesses. View low-level changes to resources like AWS EC2 security groups(open ports) and IAM roles(Over-provisioned permissions)
+
+## Security Logging and Monitoring 18
+- AWS Security Hub - Write content in future below
+- AWS WAF deploying with region based and SQL injection parameter blocking captch conformation.
+-
+
+#### AWS System Manager
+- AWS System Manager is a group of services which allows customers to have a better visibility and control of the infrastructure.
+    - Run Command
+    - Paramater Store
+    - Session Manager
+    - Patch Manager
+- The basic idea behind the "System Manager" is that there will be an SSM aganet installed in the EC2 instances, and the customer can provide specific tasks to the installed agent from the systems manager console.
+- AWS System Manager Agent (SSM Agent) is Amazon software that can be installed and configured an EC2 instance, an on-premises server, or a virtual machine(VM) it will be preinstalled on
+    - Amazon Linux ,2, Ubuntu Server 16.04, 18.04, 20.04, Amazon Linux 2 ECS-Optimized Base AMIs
+
+- **Required Permissions** By default, AWS System Manager doesn't have permission to perform actions on your instance
+- You need to attach role with **AmazonSSMManagedInstanceCore** policy to allow an instance to use System Manager service core functionality.
+- Create a IAM role with above role attached create a EC2 instance with IAM role attached while creating, 
+- To access this Systems Manager > Node Tools > Fleet Manager 
+- We can see the File systems, Users and processes
+
