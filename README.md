@@ -90,3 +90,6 @@
 - To access this Systems Manager > Node Tools > Fleet Manager 
 - We can see the File systems, Users and processes
 
+##### Patch Manager - System Manager
+- Patch Manager automates the process of patching managed instances with both security related and other types updates.
+    - Example missing of Curl, at, kernel, vim checking any missing patches apply patches accoring to kernel versions.
